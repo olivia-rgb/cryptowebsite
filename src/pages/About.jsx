@@ -77,13 +77,13 @@ function About() {
     <div>
         <div
       className="relative flex flex-col items-center justify-start w-full bg-cover bg-center"
-      style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }}
+      style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
     >
         <Navbar />
         
         <div
       className="relative flex flex-col items-center justify-start w-full bg-cover bg-center"
-      style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }}
+      style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
     >
 <div className="flex gap-5 mt-40 px-4 md:px-20 max-md:flex-col">
   <motion.div
@@ -207,7 +207,7 @@ function About() {
     whileInView={{ opacity: 1, scale: 1 }}
     transition={{ duration: 1, ease: "easeInOut" }}
   >
-    <img src="/src/img/other-img/istock1.jpg" alt="" />
+    <img src="/img/other-img/istock1.jpg" alt="" />
   </motion.div>
 </div>
 </div>
@@ -327,14 +327,14 @@ function About() {
   </div>
 
   <div className="flex justify-center items-center ml-5 w-[50%] max-md:ml-0 max-md:w-full">
-    <img src="/src/img/other-img/how4.png" alt="" />
+    <img src="/img/other-img/how4.png" alt="" />
   </div>
 </div>  
 
 
 <div
     className="w-full px- py-10 bg-cover bg-center"
-    style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }}
+    style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
     >
 <motion.div
   initial={{ opacity: 0, y: 200 }}
@@ -455,7 +455,7 @@ function About() {
 }}>
   
   <img
-    src="/src/img/other-img/contabout.png"
+    src="/img/other-img/contabout.png"
     alt=""
     className="w-full md:w-[60%] object-cover rounded-lg"
   />

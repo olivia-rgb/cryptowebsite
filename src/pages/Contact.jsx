@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 text-white bg-cover bg-center" 
-         style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }} // Replace with your background image source
+         style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }} // Replace with your background image source
     >
       <div className="flex flex-col items-center text-center w-[54%] max-w-full mt-24">
         <h1 className="text-5xl font-bold leading-tight max-md:text-4xl">
@@ -21,7 +21,7 @@ function Contact() {
         <div className="w-full lg:w-4/5 flex flex-col md:flex-row justify-between items-center">
           <div className="w-full md:w-1/2 p-4">
             <img
-              src="/src/img/other-img/contabout.png"
+              src="/img/other-img/contabout.png"
               alt="Contact Us"
               className="w-full h-full object-cover rounded-md"
             />

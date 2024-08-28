@@ -5,7 +5,7 @@ function AIBots() {
     
         <div 
       className="flex flex-col min-h-screen my-5 md:flex-row items-center justify-center p-4 md:py-10 bg-cover bg-center" 
-      style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }} // Replace with your background image source
+      style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }} // Replace with your background image source
     >
     <div className="flex overflow-hidden justify-center flex-col items-center px-2 py-3.5 rounded-lg bg-neutral-900 max-w-[626px] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]">
       
