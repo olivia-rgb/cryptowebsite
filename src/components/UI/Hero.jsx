@@ -36,7 +36,7 @@ const slides = [
     content: {
       title: 'Secure Your Future\nwith Fidelity Investment',
       paragraph: 'Invest with confidence.\n\nFidelity Investment is trusted by thousands,\nproven, and reliable.\n\nOur solutions are designed to provide long-term stability and growth.\nExperience financial success with our trusted expertise.',
-      buttons: ['Spot & P2P', 'AI Bot',],
+      buttons: ['Spot & P2P', 'Bot',],
       images: [bit3,bit1, slide3]
     },
   },
@@ -66,7 +66,7 @@ const slides = [
     content: {
       title: 'Trade with Our AI BOT',
       paragraph: 'Explore the future of cryptocurrency\nwith our comprehensive marketplace.\n\nOur AI BOT offers advanced trading strategies.\nAchieve your investment goals with precision.\nJoin now to experience the future of trading.',
-      buttons: ['AI Bot', 'Trade Now'],
+      buttons: ['Bot', 'Trade Now'],
       images: [bot2, bot1 , bot3]
     },
   },
