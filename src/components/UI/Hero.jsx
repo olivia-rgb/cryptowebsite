@@ -32,7 +32,7 @@ import { FaArrowRight } from 'react-icons/fa';
 const slides = [
   {
     id: 1,
-    video: '/src/img/cryptobg.mp4',
+    video: '/video/cryptobg.mp4',
     content: {
       title: 'Secure Your Future\nwith Fidelity Investment',
       paragraph: 'Invest with confidence.\n\nFidelity Investment is trusted by thousands,\nproven, and reliable.\n\nOur solutions are designed to provide long-term stability and growth.\nExperience financial success with our trusted expertise.',
@@ -42,7 +42,7 @@ const slides = [
   },
   {
     id: 2,
-    video: '/src/img/bgg1.mp4',
+    video: '/video/bgg1.mp4',
     content: {
       title: 'Peer-to-Peer Trading',
       paragraph: 'Experience seamless peer-to-peer trading\nwith our advanced platform.\n\nOur system ensures high efficiency and security.\nTrade with ease and confidence.\nJoin our community of successful traders.',
@@ -52,7 +52,7 @@ const slides = [
   },
   {
     id: 3,
-    video: '/src/img/bgg2.mp4',
+    video: '/video/bgg2.mp4',
     content: {
       title: 'Efficient Spot Trading',
       paragraph: 'Dive into our efficient spot trading system\nfor fast and effective solutions.\n\nStay ahead with real-time data and insights.\nTrade confidently and securely.\nDiscover a new level of trading efficiency.',
@@ -62,7 +62,7 @@ const slides = [
   },
   {
     id: 4,
-    video: '/src/img/bgg3.mp4',
+    video: '/video/bgg3.mp4',
     content: {
       title: 'Trade with Our AI BOT',
       paragraph: 'Explore the future of cryptocurrency\nwith our comprehensive marketplace.\n\nOur AI BOT offers advanced trading strategies.\nAchieve your investment goals with precision.\nJoin now to experience the future of trading.',
@@ -72,7 +72,7 @@ const slides = [
   },
   {
     id: 5,
-    video: '/src/img/bgg4.mp4',
+    video: '/video/bgg4.mp4',
     content: {
       title: 'Our Crypto Marketplace',
       paragraph: 'Explore cutting-edge solutions\nfor modern investment strategies.\n\nOur marketplace offers innovative tools\nfor successful investing.\nStay ahead in the crypto world with our solutions.',
