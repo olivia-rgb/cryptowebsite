@@ -88,7 +88,7 @@ const ReviewCarousel = () => {
           className="relative w-full"
         >
           <div className="relative overflow-hidden">
-            <div className={`grid ${itemsPerPage === 2 ? 'grid-cols-2' : 'grid-cols-4'} gap-4`}>
+            <div className={`grid ${itemsPerPage === 2 ? 'grid-cols-1' : 'grid-cols-4'} gap-4`}>
               <AnimatePresence initial={false}>
                 {currentReviews.map((review, index) => (
                   <motion.div

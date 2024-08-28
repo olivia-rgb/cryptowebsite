@@ -14,19 +14,19 @@ function Services() {
       id: 1,
       title: "AI Bots",
       description: "Maximize your trading potential with our cutting-edge AI bots. Powered by advanced algorithms, our bots analyze market trends and execute trades with precision, giving you a competitive edge.",
-      image: "/src/img/other-img/image12.png",
+      image: "/img/other-img/image12.png",
     },
     {
       id: 2,
       title: "Spot Trading",
       description: "Experience seamless and secure spot trading with Royal Assets. Our platform provides real-time market access, ensuring you never miss a trading opportunity.",
-      image: "/src/img/other-img/fidelity.png",
+      image: "/img/other-img/fidelity.png",
     },
     {
       id: 3,
       title: "P2P Trading",
       description: "Join a community of traders and investors with our peer-to-peer trading feature. Trade directly with other users, expanding your network and diversifying your trading options.",
-      image: "/src/img/other-img/image19.png",
+      image: "/img/other-img/image19.png",
     },
   ];
 
@@ -35,7 +35,7 @@ function Services() {
   return (
     <div 
       className="flex flex-col w-full my-5 md:flex-row items-center justify-center p-4 md:py-10 bg-cover bg-center" 
-      style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }}
+      style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
     >
       <motion.div 
         className="flex flex-col items-start w-full"

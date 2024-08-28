@@ -145,7 +145,7 @@ const Slider = () => {
                       {content.title}
                     </div>
                     <div className="flex items-center justify-center mb-6">
-                      <span className="text-[clamp(1.1rem,3vw,2rem)] font-bold mr-2">
+                      <span className="text-[clamp(1rem,3vw,2rem)] font-bold mr-2">
                         Fidelity Investment is:
                       </span>
                       <TypeAnimation
