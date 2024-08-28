@@ -25,7 +25,7 @@ function BotFeatures() {
   return (
     <div
       className="w-full py-10 bg-cover bg-center"
-      style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }}
+      style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
     >
       <div className="flex flex-col justify-center items-center px-20 py-56 max-md:px-5 max-md:py-24">
         <div className="flex flex-col max-w-full w-[1239px]">

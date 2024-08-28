@@ -28,7 +28,7 @@ function Bot() {
   return (
     <div 
       className="flex flex-col w-full my-5 md:flex-row items-center justify-center p-4 md:py-10 bg-cover bg-center" 
-      style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }}
+      style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
     >
       <div className="flex flex-col w-full md:w-4/5 ">
         <div className="flex flex-wrap gap-5 justify-center md:justify-between items-center md:items-start text-white max-md:mr-1.5 max-md:max-w-full text-center">

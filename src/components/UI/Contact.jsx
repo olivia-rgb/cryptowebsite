@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div
       className="relative flex flex-col items-center justify-start w-full my-5 bg-cover bg-center"
-      style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }}
+      style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
     >
       <div className="flex flex-col items-center w-full max-w-[1200px] px-20 pt-12 pb-24 text-lg text-white max-md:px-4 max-md:pt-8 max-md:pb-16">
         <div

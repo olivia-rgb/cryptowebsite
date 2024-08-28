@@ -15,8 +15,8 @@ const ResponsiveComponent = () => {
 
   return (
     <div
-      className="flex flex-col my-5 md:flex-row items-center justify-center p-4 md:py-10 bg-cover bg-center"
-      style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }} // Replace with your background image source
+      className="flex flex-col my-5 md:flex-row items-center justify-center p-4 md:py-20 bg-cover bg-center"
+      style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }} // Replace with your background image source
     >
       {/* Image Section */}
       <motion.div
@@ -27,7 +27,7 @@ const ResponsiveComponent = () => {
         transition={{ duration: 1, ease: "easeInOut" }}
       >
         <img
-          src="/src/img/spot-bg/spot3.jpg" // Replace with your image source
+          src="/img/spot-bg/spot3.jpg" // Replace with your image source
           alt="Example"
           className="w-full h-65 object-cover md:w-3/4 md:h-[400px] rounded-lg"
         />
@@ -41,11 +41,11 @@ const ResponsiveComponent = () => {
         variants={textVariants}
         transition={{ duration: 1, ease: "easeInOut" }}
       >
-        <div className="w-[90%] md:w-4/5">
+        <div className="w-[90%] pb-5 md:w-4/5">
           <h2 className="text-[clamp(2rem,5vw,2.5rem)] font-bold py-3 mb-4">
             Revolutionary Spot Trader
           </h2>
-          <p className="text-[clamp(1.5rem,3vw,1rem)] mb-4">
+          <p className="text-[clamp(1.5rem,3vw,0 rem)]  mb-4">
             Introducing our game-changing Revolutionary Spot Trader, a pioneering platform redefining
             the landscape of trading. With lightning-fast execution and real-time market access, it's
             designed to elevate your trading experience. Our platform seamlessly integrates advanced

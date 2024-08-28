@@ -137,7 +137,7 @@ function Services() {
               {services.map((service) => (
                 <motion.div
                   key={service.id}
-                  className={`flex flex-col items-center p-8 border-b-8 border-white mx-2 cursor-pointer ${
+                  className={`flex flex-col items-center p-4 border-b-8 border-white mx-2 cursor-pointer ${
                     activeService === service.id - 1 ? "border-green-500" : ""
                   }`}
                   onClick={() => setActiveService(service.id - 1)}
@@ -148,11 +148,11 @@ function Services() {
                   transition={{ duration: 1, ease: "easeInOut" }}
                 >
 
-                  <div className="text-xl text-white font-semibold">{service.title}</div>
+                  <div className="text-xl flex justify-center items-center text-center text-white font-semibold">{service.title}</div>
                 </motion.div>
               ))}
             </div>
-            <div className="mt-4 p-4 text-white rounded shadow-md w-full">
+            <div className="mt-4 px-10 text-center text-white flex justify-center items-center rounded shadow-md w-full">
               <p>{activeDiv.description}</p>
             </div>
           </div>

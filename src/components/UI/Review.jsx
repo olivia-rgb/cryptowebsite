@@ -73,7 +73,7 @@ const ReviewCarousel = () => {
   }, []);
 
   return (
-    <div className="w-full py-10 bg-cover bg-center" style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }}>
+    <div className="w-full py-20 bg-cover bg-center" style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}>
       <h1 className="text-3xl md:text-5xl font-bold text-center text-white mb-8">
         Fidelity is Trusted by Thousands of People Worldwide
       </h1>
@@ -116,13 +116,13 @@ const ReviewCarousel = () => {
             </div>
             <button
               onClick={handlePrev}
-              className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-gray-700 text-white rounded-full shadow-md hover:bg-gray-600"
+              className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-green-700 text-white rounded-full shadow-md hover:bg-yellow-600"
             >
               <FaAnglesLeft size={24} />
             </button>
             <button
               onClick={handleNext}
-              className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 bg-gray-700 text-white rounded-full shadow-md hover:bg-gray-600"
+              className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 bg-green-700 text-white rounded-full shadow-md hover:bg-yellow-600"
             >
               <FaAnglesRight size={24} />
             </button>

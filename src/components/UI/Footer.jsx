@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div
       className="relative flex flex-col items-center justify-start w-full bg-cover bg-center"
-      style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }}
+      style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
     >
       <div className="flex flex-col w-[80%]">
         <div className="flex w-full min-h-[1px] max-md:max-w-full" />

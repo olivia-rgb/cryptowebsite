@@ -49,7 +49,7 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="w-full my-5 bg-cover bg-center" style={{ backgroundImage: 'url("/src/img/bg-img/bgc1.jpeg")' }}>
+    <div className="w-full my-5 bg-cover bg-center" style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}>
     <div className="w-full flex flex-col items-center p-4 py-20 ">
       <div className="w-full lg:w-4/5">
         <h2 className="text-xl md:text-5xl font-bold mb-11 text-white text-center flex justify-center items-center gap-1">
