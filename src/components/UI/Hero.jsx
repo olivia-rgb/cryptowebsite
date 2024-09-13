@@ -28,6 +28,7 @@ import st1 from  "../../img/other-img/rst1.png"
 import st2 from  "../../img/other-img/rst2.png"
 import { TypeAnimation } from 'react-type-animation';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const slides = [
   {
@@ -36,8 +37,8 @@ const slides = [
     content: {
       title: 'Secure Your Future\nwith Fidelity Investment',
       paragraph: 'Invest with confidence.\n\nFidelity Investment is trusted by thousands,\nproven, and reliable.\n\nOur solutions are designed to provide long-term stability and growth.\nExperience financial success with our trusted expertise.',
-      buttons: ['Spot & P2P', 'Bot',],
-      images: [bit3,bit1, slide3]
+      buttons: ['Spot', 'Bot',],
+      images: [bit3,bit1, bit3]
     },
   },
   {
@@ -164,17 +165,18 @@ const Slider = () => {
                     <div className="hidden md:block text-[clamp(1rem,3vw,1.5rem)] mb-6 leading-relaxed">
                       {content.paragraph}
                     </div>
-                    <div className="flex justify-center gap-4 ">
-                      {content.buttons.map((button, buttonIndex) => (
-                        <button
-                          key={buttonIndex}
-                          className="bg-white text-green-900 font-bold py-3 px-3 rounded-lg cursor-pointer  transition-colors duration-300 hover:bg-gray-700 flex items-center"
-                        >
-                          {button}
-                          <FaArrowRight className="ml-2 text-green-900" />
-                        </button>
-                      ))}
-                    </div>
+                    <div className="flex justify-center gap-4">
+                        {content.buttons.map((button, buttonIndex) => (
+                          <Link
+                            key={buttonIndex}
+                            to={button === 'Trade Now' ? '/spot' : `/${button.toLowerCase().replace(/\s+/g, '-')}`} // Navigate to Spot for 'Trade Now'
+                            className="bg-white text-green-900 font-bold py-3 px-3 rounded-lg cursor-pointer transition-colors duration-300 hover:bg-gray-700 flex items-center"
+                          >
+                            {button}
+                            <FaArrowRight className="ml-2 text-green-900" />
+                          </Link>
+                        ))}
+                      </div>
                   </div>
                 </div>
               </div>

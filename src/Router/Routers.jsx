@@ -6,6 +6,7 @@ import Spot from "../pages/Spot";
 import AIBots from "../pages/AIBots";
 import P2p from "../pages/P2p";
 import Contact from "../pages/Contact";
+import FraudForm from "../pages/FraudForm";
 
 
 const Routers = () => {
@@ -14,6 +15,7 @@ const Routers = () => {
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="/fraud" element={<FraudForm />} />
       <Route path="/spot" element={<Spot />} />
       <Route path="/bot" element={<AIBots />} />
       <Route path="/p2p" element={<P2p />} />

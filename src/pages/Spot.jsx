@@ -1,4 +1,6 @@
 import React from 'react'
+import Navbar from '../components/UI/Navbar';
+import Footer2 from '../components/UI/Footer2';
 
 function Spot() {
 
@@ -184,17 +186,17 @@ function Spot() {
 
   return (
     <div>
-        
-    <div className="flex flex-col justify-center items-center px-20 py-14 bg-zinc-900 max-md:px-5">
+     <Navbar />   
+    <div className="flex flex-col justify-center items-center px-20 py-32 bg-zinc-900 max-md:px-5">
       <div className="flex flex-col items-start max-w-full w-[1296px]">
         <div className="text-2xl font-semibold leading-tight text-white">
           Markets Overview
         </div>
         <div className="mt-5 text-base text-neutral-400">
-          Explore your favorite coin pair on Royal Assets
+          Explore your favorite coin pair on Fidelity Expert Coin
         </div>
         <div className="self-stretch mt-12 w-full max-md:mt-10 max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-col">
+          <div className="flex gap-5 justify-center items-center max-md:flex-col">
             <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col items-center py-6 pr-20 pl-5 w-full bg-black rounded-xl max-md:pr-5 max-md:mt-6">
                 <div className="self-start text-sm font-medium leading-tight text-white text-opacity-70">
@@ -212,7 +214,7 @@ function Spot() {
             </div>
             <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="px-6 py-6 w-full bg-black rounded-xl max-md:pr-5 max-md:mt-6">
-                <div className="flex gap-5 max-md:flex-col">
+                <div className="flex gap-5 ">
                   <div className="flex flex-col w-[41%] max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col items-start w-full text-sm font-medium text-neutral-400 max-md:mt-10">
                       <div className="self-stretch leading-tight text-white text-opacity-70">
@@ -236,13 +238,13 @@ function Spot() {
                       </div>
                     </div>
                   </div>
-                  <div className="flex flex-col ml-5 w-[41%] max-md:ml-0 max-md:w-full">
+                  <div className="flex flex-col ml-5 w-[41%] max-md:mt-14 max-md:w-full">
                     <div className="flex flex-col mt-11 text-sm text-red-500 whitespace-nowrap max-md:mt-10">
                       <div>$62,682.6055</div>
                       <div className="mt-7 max-md:mr-1.5">$3,027.8116</div>
                     </div>
                   </div>
-                  <div className="flex flex-col ml-5 w-[18%] max-md:ml-0 max-md:w-full">
+                  <div className="flex flex-col ml-5 w-[18%] max-md:mt-14 max-md:w-full">
                     <div className="flex flex-col mt-11 text-sm text-red-500 whitespace-nowrap max-md:mt-10">
                       <div>3.45%</div>
                       <div className="mt-7">3.79%</div>
@@ -251,9 +253,9 @@ function Spot() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-[33%] max-md:mt-14 max-md:w-full">
               <div className="grow px-6 py-6 w-full bg-black rounded-xl max-md:pr-5 max-md:mt-6">
-                <div className="flex gap-5 max-md:flex-col">
+                <div className="flex gap-5 ">
                   <div className="flex flex-col w-[36%] max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col items-start w-full text-sm font-medium text-neutral-400 max-md:mt-10">
                       <div className="leading-tight text-white text-opacity-70">
@@ -293,22 +295,22 @@ function Spot() {
                       </div>
                     </div>
                   </div>
-                  <div className="flex flex-col ml-5 w-[44%] max-md:ml-0 max-md:w-full">
+                  <div className="flex flex-col ml-5 w-[44%] max-md:mt-10 max-md:w-full">
                     <div className="flex flex-col mt-11 text-sm text-red-500 whitespace-nowrap max-md:mt-10">
                       <div>$62,682.6055</div>
-                      <div className="mt-7 max-md:mr-1.5 max-md:ml-1.5">
+                      <div className="mt-5 max-md:mr-1.5 max-md:ml-1.5">
                         $3,027.8116
                       </div>
-                      <div className="self-center mt-7">$0.9990</div>
-                      <div className="self-center mt-7">$557.5287</div>
+                      <div className="self-center mt-5">$0.9990</div>
+                      <div className="self-center mt-5">$557.5287</div>
                     </div>
                   </div>
-                  <div className="flex flex-col ml-5 w-1/5 max-md:ml-0 max-md:w-full">
+                  <div className="flex flex-col ml-5 w-1/5 max-md:mt-10 max-md:w-full">
                     <div className="flex flex-col mt-11 text-sm text-red-500 whitespace-nowrap max-md:mt-10">
                       <div>3.45%</div>
-                      <div className="mt-7">3.79%</div>
-                      <div className="mt-7">0.08%</div>
-                      <div className="mt-7">2.84%</div>
+                      <div className="mt-5">3.79%</div>
+                      <div className="mt-5">0.08%</div>
+                      <div className="mt-5">2.84%</div>
                     </div>
                   </div>
                 </div>
@@ -319,7 +321,6 @@ function Spot() {
       </div>
     </div>
   
-
   
     <div className="flex overflow-hidden flex-col items-center bg-black text-white">
       <div className="flex flex-wrap gap-10 w-full max-w-[1296px] max-md:max-w-full">
@@ -410,6 +411,8 @@ function Spot() {
   
   
 </div>
+
+<Footer2 />
   
     </div>
   )

@@ -34,7 +34,7 @@ function Services() {
 
   return (
     <div 
-      className="flex flex-col w-full my-5 md:flex-row items-center justify-center p-4 md:py-10 bg-cover bg-center" 
+      className="flex flex-col w-full  md:flex-row items-center justify-center p-4 md:py-10 bg-cover bg-center" 
       style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
     >
       <motion.div 

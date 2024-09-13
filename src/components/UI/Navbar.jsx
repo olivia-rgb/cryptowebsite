@@ -34,6 +34,7 @@ function Navbar() {
       <div className={`fixed top-0 left-0 w-full ${scrolling ? 'bg-green-900 shadow-2xl' : 'bg-transparent shadow-lg'} transition-all duration-300 z-50`}>
         <div className="hidden md:flex justify-between items-center w-10/12 mx-auto py-2">
           <div className="flex gap-8">
+           <Link to="/home" className="hover:underline hover:text-[#f9a826]">Home</Link>
             <Link to="/about" className="hover:underline hover:text-[#f9a826]">About</Link>
             <Link to="/spot" className="hover:underline hover:text-[#f9a826]">Spot</Link>
             <Link to="/bot" className="hover:underline hover:text-[#f9a826]">AI Bots</Link>
@@ -61,6 +62,7 @@ function Navbar() {
       {/* Mobile Menu Overlay */}
       {showMenu && (
         <div className="md:hidden fixed inset-0  bg-green-900 text-white font-bold flex flex-col py-32 items-start px-8 z-40 overflow-auto">
+          <Link to="/home" className="hover:underline p-4 hover:text-[#f9a826]">Home</Link>
           <Link to="/about" className="text-center p-4 hover:underline">About</Link>
           <Link to="/spot" className="text-center p-4 hover:underline">Spot</Link>
           <Link to="/bot" className="text-center p-4 hover:underline">AI Bots</Link>

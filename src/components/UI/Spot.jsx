@@ -15,7 +15,7 @@ const ResponsiveComponent = () => {
 
   return (
     <div
-      className="flex flex-col my-5 md:flex-row items-center justify-center p-4 md:py-20 bg-cover bg-center"
+      className="flex flex-col mt-5 md:flex-row items-center justify-center p-4 md:py-20 bg-cover bg-center"
       style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }} // Replace with your background image source
     >
       {/* Image Section */}

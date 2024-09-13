@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from "../components/UI/Footer"
+import Footer2 from "../components/UI/Footer2"
 import Navbar from "../components/UI/Navbar"
 import { motion } from "framer-motion";
 
@@ -85,7 +85,7 @@ function About() {
       className="relative flex flex-col items-center justify-start w-full bg-cover bg-center"
       style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
     >
-<div className="flex gap-5 mt-40 px-4 md:px-20 max-md:flex-col">
+<div className="flex justify-center items-center gap-5 mt-20 md:mt-40 px-4 md:px-20 max-md:flex-col">
   <motion.div
     className="flex flex-col w-[45%] max-md:ml-0 max-md:w-full"
     initial={{ opacity: 0, x: -50 }}
@@ -94,7 +94,7 @@ function About() {
   >
     <div className="flex flex-col items-start self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
       <motion.div
-        className="text-5xl font-bold leading-tight text-white"
+        className=" text-4xl md:text-5xl font-bold leading-tight text-white"
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeInOut" }}
@@ -102,7 +102,7 @@ function About() {
         Financial Growth
       </motion.div>
       <motion.div
-        className="mt-3 text-3xl text-neutral-300"
+        className="mt-3 text-[clamp(1.25rem,3vw,2rem)] text-neutral-300"
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeInOut" }}
@@ -133,7 +133,7 @@ function About() {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, ease: "easeInOut" }}
       >
-        Experience seamless and secure spot trading with Royal Assets. Our
+        Experience seamless and secure spot trading with Fidelity Expert Coin. Our
         <br />
         platform provides real-time market access, ensuring you never miss
         a<br />
@@ -149,7 +149,7 @@ function About() {
           
         </motion.div>
         <motion.div
-          className="self-start text-3xl font-bold leading-tight text-white"
+          className="self-start text-2xl font-bold leading-tight text-white"
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
@@ -179,7 +179,7 @@ function About() {
           
         </motion.div>
         <motion.div
-          className="text-3xl font-bold leading-tight text-white basis-auto"
+          className="text-2xl font-bold leading-tight text-white basis-auto"
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
@@ -188,7 +188,7 @@ function About() {
         </motion.div>
       </div>
       <motion.div
-        className="self-stretch mt-4 mr-11 ml-12 text-base leading-6 text-neutral-300 max-md:mr-2.5 max-md:max-w-full"
+        className="self-stretch my-4 mr-11 ml-12 text-base leading-6 text-neutral-300 max-md:mr-2.5 max-md:max-w-full"
         initial={{ opacity: 0, x: -30 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, ease: "easeInOut" }}
@@ -216,17 +216,17 @@ function About() {
 <div className="flex flex-col justify-center my-5 items-center px-20 py-10 mt-10 max-md:px-5 max-md:py-24" style={{
   background: "linear-gradient(135deg, #064e3b, black, #064e3b)", // Dark green to black gradient
 }}>
-  <div className="flex flex-col max-w-full w-full lg:w-[1296px]">
-    <div className="self-center text-5xl font-bold leading-tight text-center text-white max-md:text-4xl">
+  <div className="flex flex-col justify-center items-center max-w-full w-full lg:w-[1296px]">
+    <div className="self-center text-2xl md:text-5xl font-bold leading-tight text-center text-white max-md:text-4xl">
       Stay in the know
     </div>
     <div className="self-center mt-8 text-xl leading-8 text-center text-neutral-400 max-md:max-w-full">
-      Royal Assets keeps you informed in real-time about leading
+      Fidelity Expert Coin keeps you informed in real-time about leading
       <br />
       cryptocurrencies
     </div>
     <div className="mt-14 max-md:mt-10">
-      <div className="grid grid-cols-4 gap-5 max-md:grid-cols-1">
+      <div className="grid grid-cols-4 gap-5 max-md:grid-cols-2 mx-auto">
         {cryptoData.map((item, index) => (
           <div key={index} className="flex flex-col w-full bg-black rounded-xl p-5">
             <div className="flex gap-4 items-start text-base whitespace-nowrap">
@@ -254,14 +254,14 @@ function About() {
 </div>
 
     
-<div className="flex gap-5 px-20 py-5 max-md:flex-col max-md:px-5">
+<div className="flex gap-5 px-20 py-5 max-md:flex-col max-md:px-10">
   <div className="w-[50%] justify-center items-center max-md:w-full">
     <div className="pl-5">
       <div className="text-5xl font-bold leading-tight text-white max-md:text-4xl">
         How to Invest?
       </div>
       <div className="mt-4 text-xl text-neutral-400 max-md:mt-5">
-        Start trading and grow your portfolio with Royal Assets
+        Start trading and grow your portfolio with Fidelity Expert  Coin
       </div>
     </div>
 
@@ -272,7 +272,7 @@ function About() {
         </div>
         <div className="flex flex-col">
           <div className="text-2xl text-white">
-            Sign Up On Royal Assets
+            Sign Up Fidelity Expert Coin
           </div>
           <div className="mt-3 text-base text-neutral-400">
             Registering an account here is very simple, just a few fields
@@ -315,7 +315,7 @@ function About() {
         <div className='flex flex-col'>
         <div className="text-2xl text-white">Trade</div>
         <div className="text-base text-neutral-400">
-          Start buying and selling cryptocurrencies, and explore even more Royal Assets products and services!
+          Start buying and selling cryptocurrencies, and explore even more Fidelity ExpertCoin products and services!
         </div>
         </div>
       </div>
@@ -343,7 +343,7 @@ function About() {
   className="w-full"
 >
   <div className="w-full mx-auto py-20">
-    <div className="text-5xl font-bold leading-10 pb-20 text-white text-center">
+    <div className="text-3xl md:text-5xl font-bold leading-10 pb-10 md:pb-20 text-white text-center">
       Why Fidelity Expert Coin?
     </div>
 
@@ -366,7 +366,7 @@ function About() {
             24/7 Customer Service
           </div>
           <div className="mt-6 text-base leading-6 text-white text-opacity-80 text-center md:text-left">
-            Contact Royal Assets customer
+            Contact Fidelity Expert Coin customer
             <br />
             support with your questions at
             <br />
@@ -414,7 +414,7 @@ function About() {
           <div className="mt-6 text-base leading-6 text-white text-opacity-80 text-center md:text-left">
             There is an excellent team behind
             <br />
-            Royal Assets, and we adore
+            Fidelity Expert Coin, and we adore
             <br />
             communicating with our users!
           </div>
@@ -465,7 +465,7 @@ function About() {
     <div className="self-start mt-1 text-base text-neutral-400">
       Get Started Today
     </div>
-    <div className="self-start mt-6 text-4xl font-semibold text-white leading-[49px] max-md:max-w-full">
+    <div className="self-start mt-6  text-2xl md:text-4xl font-semibold text-white leading-[49px] max-md:max-w-full">
       Subscribe to our newsletter &<br />
       Stay Updated
     </div>
@@ -482,7 +482,7 @@ function About() {
 
     </div>
   
-  <Footer />
+  <Footer2 />
   
       </div> 
     

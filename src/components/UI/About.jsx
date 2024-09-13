@@ -18,7 +18,7 @@ const About = () => {
 
   return (
     <div
-      className="relative w-full h-auto bg-cover bg-center"
+      className="relative w-full mt-5 h-auto bg-cover bg-center"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="flex py-12 flex-col md:flex-row h-full">

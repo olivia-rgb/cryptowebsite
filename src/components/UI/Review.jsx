@@ -75,7 +75,7 @@ const ReviewCarousel = () => {
   return (
     <div className="w-full py-20 bg-cover bg-center" style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}>
       <h1 className="text-3xl md:text-5xl font-bold text-center text-white mb-8">
-        Fidelity is Trusted by Thousands of People Worldwide
+        Fidelity is Trusted by Millions of People Worldwide
       </h1>
       <div 
         id="review-carousel" 

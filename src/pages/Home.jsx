@@ -10,8 +10,12 @@ import Review from '../components/UI/Review'
 import BotFeatures from '../components/UI/BotFeatures'
 import FAQ from '../components/UI/FAQ'
 import Footer from '../components/UI/Footer'
+import Footer2 from '../components/UI/Footer2'
 import Contact from '../components/UI/Contact'
+import Loan from '../components/UI/Loan'
+import Save from '../components/UI/Save'
 import Header from '../components/Header'
+import FraudTrackingTeam from '../components/UI/FraudTrackingTeam'
 
 
 
@@ -29,11 +33,14 @@ function Home() {
         <Services />
         <Spot />
        < Bot />
+       <Loan />
+       <Save />
+       <FraudTrackingTeam />
        <Review />
        <FAQ />
        <BotFeatures />
        <Contact />
-       <Footer />
+       <Footer2 />
        
 
 
