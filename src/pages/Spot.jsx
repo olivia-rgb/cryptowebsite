@@ -184,7 +184,7 @@ function Spot() {
 
   return (
     <div>
-     <Navbar />   
+     
     <div className="flex flex-col justify-center items-center px-20 py-32 bg-zinc-900 max-md:px-5">
       <div className="flex flex-col items-start max-w-full w-[1296px]">
         <div className="text-2xl font-semibold leading-tight text-white">
