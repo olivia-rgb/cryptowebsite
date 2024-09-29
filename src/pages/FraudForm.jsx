@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Footer2 from "../components/UI/Footer2";
-import Navbar from "../components/UI/Navbar";
 
 const FraudForm = () => {
   const [formData, setFormData] = useState({
@@ -178,7 +176,7 @@ const FraudForm = () => {
       </div>
     </section>
     </div>
-    <Footer2 />
+    
     </div>
   );
 };

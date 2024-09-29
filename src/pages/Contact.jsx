@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../components/UI/Navbar';
-import Footer2 from '../components/UI/Footer2';
 
 function Contact() {
   return (
@@ -8,7 +6,7 @@ function Contact() {
       className="flex flex-col items-center justify-center min-h-screen p-4 text-white bg-cover bg-center"
       style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }} // Replace with your background image source
     >
-      <Navbar />
+
       <div className="flex flex-col items-center text-center w-full max-w-4xl mt-24 px-4 md:px-0">
         <h1 className="text-5xl font-bold leading-tight md:text-4xl sm:text-3xl">
           We Would Love To Hear From You.
@@ -59,7 +57,7 @@ function Contact() {
         </div>
       </div>
 
-      <Footer2 />
+
     </div>
   );
 }

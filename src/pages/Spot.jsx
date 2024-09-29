@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from '../components/UI/Navbar';
-import Footer2 from '../components/UI/Footer2';
 
 function Spot() {
 
@@ -412,7 +410,7 @@ function Spot() {
   
 </div>
 
-<Footer2 />
+
   
     </div>
   )

@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from '../components/UI/Navbar';
-import Footer2 from '../components/UI/Footer2';
+
 
 function P2p() {
   return (
@@ -111,7 +110,7 @@ function P2p() {
         </div>
       </div>
 
-      <Footer2 />
+
     </div>
   );
 }

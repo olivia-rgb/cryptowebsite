@@ -1,6 +1,4 @@
 import React from 'react'
-import Footer2 from "../components/UI/Footer2"
-import Navbar from "../components/UI/Navbar"
 import { motion } from "framer-motion";
 
 
@@ -79,8 +77,6 @@ function About() {
       className="relative flex flex-col items-center justify-start w-full bg-cover bg-center"
       style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
     >
-        <Navbar />
-        
         <div
       className="relative flex flex-col items-center justify-start w-full bg-cover bg-center"
       style={{ backgroundImage: 'url("/img/bg-img/bgc1.jpeg")' }}
@@ -482,7 +478,6 @@ function About() {
 
     </div>
   
-  <Footer2 />
   
       </div> 
     
